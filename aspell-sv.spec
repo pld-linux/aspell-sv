@@ -1,14 +1,14 @@
 Summary:	Swedish dictionary for aspell
 Summary(pl):	Szwedzki s³ownik dla aspella
 Name:		aspell-sv
-Version:	0.50
-%define	subv	2
-Release:	2
+Version:	0.51
+%define	subv	0
+Release:	1
 Epoch:		1
 License:	GPL
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/sv/%{name}-%{version}-%{subv}.tar.bz2
-# Source0-md5:	8d50ddf72f750d187b0ffc440328db84
+# Source0-md5:	d180c781f8986ea0f65b6b18f02a494e
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= 0.50.0
