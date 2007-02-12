@@ -1,5 +1,5 @@
 Summary:	Swedish dictionary for aspell
-Summary(pl):	S≥ownik szwedzki dla aspella
+Summary(pl.UTF-8):   S≈Çownik szwedzki dla aspella
 Name:		aspell-sv
 Version:	0.51
 %define	subv	0
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Swedish dictionary (i.e. word list) for aspell.
 
-%description -l pl
-S≥ownik szwedzki (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+S≈Çownik szwedzki (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
