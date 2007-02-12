@@ -1,5 +1,5 @@
 Summary:	Swedish dictionary for aspell
-Summary(pl.UTF-8):   Słownik szwedzki dla aspella
+Summary(pl.UTF-8):	Słownik szwedzki dla aspella
 Name:		aspell-sv
 Version:	0.51
 %define	subv	0
