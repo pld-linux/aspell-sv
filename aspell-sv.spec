@@ -12,6 +12,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/sv/%{name}-%{version}-%{subv}.tar.bz
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 2:0.50.0
 Requires:	aspell >= 2:0.50.0
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -41,5 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Copyright README
-%{_libdir}/aspell/*
+%{_prefix}/lib/aspell/*
 %{_datadir}/aspell/*
